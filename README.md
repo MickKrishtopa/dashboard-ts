@@ -12,4 +12,4 @@
 -   CSS Grid
 -   React
 -   Redux Toolkit
--   TypeSript
+-   TypeScript
