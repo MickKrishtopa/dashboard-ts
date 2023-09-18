@@ -1,0 +1,72 @@
+.action {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    background-position: 92% -10%;
+    background-repeat: no-repeat;
+    border-radius: var(--radii);
+}
+
+.action__content {
+    height: 60%;
+    background-color: var(--blue-400);
+    border-radius: var(--radii);
+    padding: 2rem;
+}
+
+.action_type_work {
+    background-image: url("../../images/icon-work.svg");
+
+    background-color: var(--red-100);
+}
+
+.action_type_play {
+    background-image: url("../../images/icon-play.svg");
+
+    background-color: var(--blue-100);
+}
+.action_type_study {
+    background-image: url("../../images/icon-study.svg");
+
+    background-color: var(--red-200);
+}
+.action_type_exercise {
+    background-image: url("../../images/icon-exercise.svg");
+
+    background-color: var(--green-100);
+}
+.action_type_social {
+    background-image: url("../../images/icon-social.svg");
+
+    background-color: var(--violet-500);
+}
+.action_type_self-care {
+    background-image: url("../../images/icon-self-care.svg");
+
+    background-color: var(--orange-100);
+}
+
+.action__title-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__title {
+    font-size: 34px;
+    font-family: var(--family);
+    font-weight: var(--weight--normal);
+    margin: 0;
+}
+.action__time-cur {
+    font-size: 54px;
+    font-family: var(--family);
+    font-weight: var(--weight--bold);
+    margin: 1rem 0 0;
+}
+.action__time-prev {
+    font-size: 24px;
+    font-family: var(--family);
+    font-weight: var(--weight--light);
+    margin: 1rem 0 0;
+}

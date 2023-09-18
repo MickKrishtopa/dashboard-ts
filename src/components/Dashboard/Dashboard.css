@@ -1,0 +1,7 @@
+.dashboard {
+    margin: 50px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 285px));
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+}

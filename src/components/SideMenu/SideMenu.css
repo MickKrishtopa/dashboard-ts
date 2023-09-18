@@ -1,0 +1,27 @@
+.sideMenu {
+    grid-area: 1 / 1 / 3 / 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--radii);
+    background-color: var(--blue-400);
+}
+
+.side-menu__interval-list {
+    margin: 0;
+    padding: 2rem;
+    list-style: none;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.side-menu__interval-item {
+    color: var(--blue-200);
+    cursor: pointer;
+}
+
+.side-menu__interval-item:hover,
+.side-menu__interval-item__active {
+    color: white;
+}

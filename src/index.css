@@ -1,13 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+:root {
+    /* Color */
+    --blue-100: hsl(195, 74%, 62%);
+    --blue-200: hsl(236, 100%, 87%);
+    --blue-400: hsl(235, 46%, 20%);
+    --blue-500: hsl(246, 80%, 60%);
+    --blue-800: hsl(235, 45%, 61%);
+    --blue-900: hsl(226, 43%, 10%);
+    --red-100: hsl(15, 100%, 70%);
+    --red-200: hsl(348, 100%, 68%);
+    --green-100: hsl(145, 58%, 55%);
+    --violet-500: hsl(264, 64%, 52%);
+    --orange-100: hsl(43, 84%, 65%);
+
+    /* Typography */
+    --family: "Rubik", sans-serif;
+    --fs-base: 18px;
+    --weight--light: 400;
+    --weight--normal: 500;
+    --weight--bold: 600;
+
+    /* borders */
+    --radii: 1rem;
+}
+
+body {
+    margin: 0;
+    background-color: var(--blue-900);
+    font-family: var(--family);
+    font-size: var(--fs-base);
+    color: white;
+    min-height: 100vh;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
